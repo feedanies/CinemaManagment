@@ -9,7 +9,7 @@ namespace CinemaManagment.DapperReport
 {
     public class Report
     {
-        private readonly string connectionString = @"Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CinemaDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30";
+        private readonly string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CinemaDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False;Command Timeout=30";
 
         public IEnumerable<MovieDapper> GetMovieTickets()
         {
